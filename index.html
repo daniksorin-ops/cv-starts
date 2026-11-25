@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Starts | Tavs pirmais solis</title>
+<style>
+:root{--navy:#173B57;--gold:#F2C14E;--cream:#FFF9EB;--ink:#20303C;--muted:#60717E;--white:#FFFFFF}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{background:var(--white);border-bottom:1px solid #E5E9EC}
+.topbar{max-width:1080px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:11px;color:var(--navy);font-weight:700;font-size:20px;text-decoration:none}
+.mark{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:var(--gold);font-size:22px}
+nav{display:flex;gap:24px}
+nav a{color:var(--navy);text-decoration:none;font-weight:600}
+.hero{max-width:1080px;margin:auto;padding:76px 24px 64px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:42px}
+.eyebrow{display:inline-block;padding:6px 13px;border-radius:20px;background:#F8E7B6;color:var(--navy);font-size:14px;font-weight:700}
+h1{max-width:650px;margin:18px 0;color:var(--navy);font-size:clamp(38px,6vw,60px);line-height:1.08}
+.intro{max-width:620px;color:var(--muted);font-size:18px}
+.button{display:inline-block;margin-top:14px;padding:13px 21px;border-radius:8px;background:var(--navy);color:var(--white);text-decoration:none;font-weight:700}
+.note{padding:29px;border:1px solid #E9D99E;border-radius:18px;background:var(--white);box-shadow:0 14px 34px rgba(23,59,87,.08)}
+.note .mark{width:56px;height:56px;font-size:29px}
+.note h2{margin:17px 0 8px;color:var(--navy)}
+.note p{margin:0;color:var(--muted)}
+.services{padding:55px 24px 68px;background:var(--white)}
+.inner{max-width:1080px;margin:auto}
+.sectionTitle{margin:0 0 8px;color:var(--navy);font-size:30px}
+.sectionText{margin:0 0 27px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{padding:23px;border:1px solid #E6EAED;border-radius:13px;background:var(--cream)}
+.card h3{margin:0 0 8px;color:var(--navy)}
+.card p{margin:0;color:var(--muted)}
+.contact{max-width:1080px;margin:48px auto;padding:0 24px}
+.contactBox{padding:28px;border-radius:16px;background:var(--navy);color:var(--white)}
+.contactBox h2{margin:0 0 7px}
+.contactBox p{margin:0 0 13px}
+.contactBox a{color:var(--gold);font-weight:700}
+footer{padding:18px 24px;text-align:center;color:var(--muted);font-size:14px}
+@media(max-width:720px){.topbar{flex-direction:column}nav{gap:16px}.hero{grid-template-columns:1fr;padding-top:50px}.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="topbar"><a class="brand" href="#sakums"><span class="mark">✨</span>CV Starts</a><nav aria-label="Galvenā izvēlne"><a href="#pakalpojumi">Pakalpojumi</a><a href="#kontakti">Kontakti</a></nav></div></header>
+<main id="sakums">
+<section class="hero"><div><span class="eyebrow">Pirmajam darbam un praksei</span><h1>Tavs pirmais solis sākas ar labu CV</h1><p class="intro">CV Starts palīdz studentiem skaidri parādīt savas prasmes, sakārtot LinkedIn profilu un drošāk pieteikties pirmajai praksei vai darbam.</p><a class="button" href="#kontakti">Saņemt palīdzību</a></div><aside class="note"><span class="mark">💡</span><h2>Parādi, ko proti</h2><p>Arī studiju projekti un neliela pieredze var kļūt par labu sākumu, ja tos apraksta saprotami.</p></aside></section>
+<section class="services" id="pakalpojumi"><div class="inner"><h2 class="sectionTitle">Kā varu palīdzēt</h2><p class="sectionText">Vienkāršs atbalsts, lai darba meklēšanu sāktu ar pārliecību.</p><div class="cards">
+<article class="card"><h3>CV pārskatīšana</h3><p>Pārbaudu CV struktūru, valodu un to, vai svarīgākās prasmes ir viegli pamanāmas.</p></article>
+<article class="card"><h3>LinkedIn profils</h3><p>Sakārtoju virsrakstu, aprakstu un prasmju sadaļu, lai profils izskatītos profesionāli.</p></article>
+<article class="card"><h3>Īsa konsultācija</h3><p>Pārrunājam pieteikumu, prakses meklēšanu un nākamos soļus tavā darba meklēšanā.</p></article>
+</div></div></section>
+<section class="contact" id="kontakti"><div class="contactBox"><h2>Sāksim ar tavu ideju</h2><p>Uzraksti, kādu darbu meklē, un vienosimies par piemērotāko palīdzību.</p><a href="mailto:hello.cvstarts@example.com">hello.cvstarts@example.com</a></div></section>
+</main>
+<footer>CV Starts | Tavs pirmais solis darba meklēšanā</footer>
+</body>
+</html>
